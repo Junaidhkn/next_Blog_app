@@ -1,10 +1,10 @@
-import Link from "next/link.js"
 import Layout from "../components/Layout.js"
+import FeaturedPost from "../components/FeaturedPost.js"
 
 const HomePage = () => {
   return (
     <Layout>
-
+      <FeaturedPost />
     </Layout>
   )
 }

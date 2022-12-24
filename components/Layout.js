@@ -9,18 +9,18 @@ const Layout = ( props ) => {
                <Link href="/posts">All Posts</Link>
                <Link href="/posts">Your Posts</Link>
                <div>
-                  <ul className="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
+                  <ul className="absolute py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
                      <li>
-                        <Link className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white" href="/posts/react">React</Link>
+                        <Link className=" z-10 block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white" href="/posts/react">React</Link>
                      </li>
                      <li>
-                        <Link className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white" href="/posts/react">Express.js</Link>
+                        <Link className="z-10 block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white" href="/posts/react">Express.js</Link>
                      </li>
                      <li>
-                        <Link className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white" href="/posts/react">Next.js</Link>
+                        <Link className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white z-10" href="/posts/react">Next.js</Link>
                      </li>
                      <li>
-                        <Link className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white" href="/posts/react">Redux</Link>
+                        <Link className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white z-10" href="/posts/react">Redux</Link>
                      </li>
                   </ul>
                </div>

@@ -3,9 +3,10 @@ import FeaturedPost from "../components/FeaturedPost.js"
 
 const HomePage = () => {
   return (
-    <Layout>
+    <>
+      <Layout></Layout>
       <FeaturedPost />
-    </Layout>
+    </>
   )
 }
 

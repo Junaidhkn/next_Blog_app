@@ -32,3 +32,10 @@ a {
     color-scheme: dark;
   }
 }
+
+
+.line {
+  height: 340px;
+  width: 2px;
+  background-color: rgba(0, 170, 161, 1);
+}

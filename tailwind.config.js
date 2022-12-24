@@ -15,9 +15,9 @@ module.exports = {
       colors: {
         greenSuper: 'rgba(0, 170, 161, 1)',
         fontBlack: 'rgba(34, 34, 34, 1)',
-        greenLight: 'rgba(242, 248, 247, 1)',
+        greenFooter: 'rgba(242, 248, 247, 1)',
         greenGray: 'rgba(232, 243, 243, 1)',
-        greenFooter: 'rgba(209, 231, 229, 1)'
+        greenNav: 'rgba(209, 231, 229, 1)'
       },
     },
   },

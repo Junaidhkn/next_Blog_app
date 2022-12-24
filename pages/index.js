@@ -1,8 +1,11 @@
-import React from 'react'
+import Link from "next/link.js"
+import Layout from "../components/Layout.js"
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <Layout>
+
+    </Layout>
   )
 }
 

@@ -38,10 +38,12 @@ const footer = () => {
 						type='text'
 					/>
 					<button className=''>Subscribe</button>
+
+					{/*  Add social links Here */}
 				</div>
 			</div>
 			<div className='flex mx-auto justify-center items-center'>
-				<p>&copy;Copyrights: All Rights Reserved</p>
+				<p>&copy;Copyrights: All Rights Reserved.</p>
 				<span>
 					Made with love by{' '}
 					<span>

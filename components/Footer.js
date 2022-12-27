@@ -24,7 +24,10 @@ const footer = () => {
 							<Link href='#'>All Posts</Link>
 						</li>
 						<li className=''>
-							<Link href='#'>React.js / Nextjs</Link>
+							<Link href='#'>React.js</Link>
+						</li>
+						<li className=''>
+							<Link href='#'>Next.js</Link>
 						</li>
 						<li className=''>
 							<Link href='#'>Express.js</Link>

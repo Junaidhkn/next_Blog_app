@@ -17,7 +17,8 @@ module.exports = {
         fontBlack: 'rgba(34, 34, 34, 1)',
         greenFooter: 'rgba(232, 243, 243, 1)',
         greenGray: 'rgba (242, 248, 247, 1 )',
-        greenNav: 'rgba(209, 231, 229, 1)'
+        greenNav: 'rgba(209, 231, 229, 1)',
+        header: 'rgba(242, 248, 247, 1)'
       },
     },
   },

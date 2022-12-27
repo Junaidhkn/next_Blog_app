@@ -35,9 +35,6 @@ a {
   }
 }
 
-
-.line {
-  height: 340px;
-  width: 2px;
-  background-color: rgba(0, 170, 161, 1);
+.box {
+  border: 1px solid red;
 }

@@ -35,13 +35,7 @@ const Navbar = () => {
 			<div className='flex space-x-8 basis-1/3 items-center justify-center'>
 				<Link href='/auth/login'>Login</Link>
 				<Link href='/auth/register'>Register</Link>
-				{/* Add Dynamic Route - replace yourposts with username */}
-				{/* Use slug as '/users/{username} */}
-				<Link
-					className='block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
-					href='/posts/yourposts'>
-					Your Posts
-				</Link>
+
 			</div>
 		</nav>
 	);

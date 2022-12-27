@@ -6,13 +6,13 @@ const Navbar = () => {
 			<div className='flex space-x-1 basis-1/3 items-center justify-center'>
 				<Link
 					className='block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
-					href='/posts/react'>
+					href='/posts/frontend'>
 					React/Next.js
 				</Link>
 
 				<Link
 					className='block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
-					href='/posts/react'>
+					href='/posts/backend'>
 					Express.js
 				</Link>
 

@@ -53,7 +53,8 @@ const footer = () => {
 					{/*  Add social links Here */}
 				</div>
 			</div>
-			<div className='w-full flex justify-evenly mx-auto items-center gap-9 bg-greenFooter'>
+			<div className='bg-greenGray w-full h-[1px]'></div>
+			<div className='w-full flex justify-evenly mx-auto items-center gap-9 bg-greenFooter h-14'>
 				<p>
 					Made with ❤️ by{'  '}
 					<span className='text-greenSuper'>
@@ -64,7 +65,7 @@ const footer = () => {
 						</Link>
 					</span>
 				</p>
-				<p>&copy;All Rights Reserved.</p>
+				<p className='font-bold text-gray-600'>&copy; All Rights Reserved. Copyrights 2022 / 23</p>
 			</div>
 		</footer>
 	);

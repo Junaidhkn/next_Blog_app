@@ -5,7 +5,7 @@ const featuredPost = () => {
 		<main className="flex ">
 			<div className='container flex flex-col bg-greenGray w-full mt-12 mx-20'>
 				<h2 className="text-3xl font-bold mb-10"><span className='bg-greenSuper text-neutral-50 text-2xl p-1'>Featured</span> Posts</h2>
-				<div className="flex justify-evenly gap-8 mb-20">
+				<div className="flex justify-evenly gap-8 mb-10 pb-10 hover:drop-shadow-xl hover:border-x-emerald-100 hover:border-2">
 					<div className='flex flex-col w-96 h-64'>
 						<div className='container mt-8'>
 							<div className=" w-[430]">
@@ -26,8 +26,8 @@ const featuredPost = () => {
 						{/* <Image></Image> */}
 					</div>
 				</div>
-				<div className="flex justify-evenly gap-8 mb-20">
-					<div className='flex flex-col w-96 h-64'>
+				<div className="flex justify-evenly gap-8 mb-10 pb-10 hover:drop-shadow-xl hover:border-x-emerald-100 hover:border-2">
+					<div className='flex flex-col w-96 h-64 '>
 						<div className='container mt-8'>
 							<div className=" w-[430]">
 								<span className="p-1 bg-greenFooter text-xs">React.js</span>
@@ -53,7 +53,7 @@ const featuredPost = () => {
 
 			<div className='flex flex-col mt-20 w-96 mr-20 gap-5'>
 				<h2 className="text-2xl font-bold mb-10"><span className='bg-greenSuper text-neutral-50 text-2xl p-1'>Popular</span> Posts</h2>
-				<div>
+				<div className="p-5 hover:drop-shadow-xl hover:border-x-emerald-100 hover:border-2">
 					<div className='container mt-8'>
 						<div className=" w-[430]">
 							<span className="p-1 bg-greenFooter text-xs">React.js</span>
@@ -67,7 +67,7 @@ const featuredPost = () => {
 						</div>
 					</div>
 				</div>
-				<div>
+				<div className="p-5 hover:drop-shadow-xl hover:border-x-emerald-100 hover:border-2">
 					<div className='container mt-8'>
 						<div className=" w-[430]">
 							<span className="p-1 bg-greenFooter text-xs">React.js</span>

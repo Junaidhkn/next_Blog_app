@@ -1,3 +1,4 @@
+import Image from 'next/image.js'
 import React from 'react'
 
 const Posts = () => {
@@ -22,8 +23,7 @@ const Posts = () => {
                </div>
                <div className="relative w-[350px] h-[250px] mt-20">
                   <div className="absolute w-[150px] h-[171px] -left-[20px] -top-[20px] z-0 opacity-80 bg-greenNav"></div>
-                  <img className="absolute w-full h-full z-10" src="/images/blog.jpg" />
-                  {/* <Image></Image> */}
+                  <Image className="absolute w-full h-full z-10" src='/images/blog.jpg' width={500} height={500} ></Image>
                </div>
             </div>
          </div>
@@ -46,8 +46,7 @@ const Posts = () => {
                </div>
                <div className="relative w-[350px] h-[250px] mt-20">
                   <div className="absolute w-[150px] h-[171px] -left-[20px] -top-[20px] z-0 opacity-80 bg-greenNav"></div>
-                  <img className="absolute w-full h-full z-10" src="/images/blog.jpg" />
-                  {/* <Image></Image> */}
+                  <Image className="absolute w-full h-full z-10" src='/images/blog.jpg' width={500} height={500} ></Image>
                </div>
             </div>
          </div>

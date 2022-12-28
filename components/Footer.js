@@ -65,7 +65,7 @@ const footer = () => {
 						</Link>
 					</span>
 				</p>
-				<p className='font-bold text-gray-600'>&copy; All Rights Reserved. Copyrights 2022 / 23</p>
+				<p className='font-bold text-gray-600'>&copy; All Rights Reserved. Copyrights 2022 - 23</p>
 			</div>
 		</footer>
 	);

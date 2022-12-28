@@ -4,7 +4,7 @@ const footer = () => {
 	return (
 		<footer className='flex flex-col w-full'>
 			<div className='flex justify-around px-16 py-10 h-64 bg-greenFooter'>
-				<div className='flex basis-1 flex-col'>
+				<div className='flex basis-1 flex-col gap-7'>
 					<Link href='/'>
 						<span className='bg-greenSuper text-neutral-50 text-2xl p-2 rounded-2xl'>
 							Junaid@
@@ -18,43 +18,53 @@ const footer = () => {
 					</p>
 				</div>
 				<div>
-					<h3 className=''>Blogs</h3>
+					<h3 className='font-[600] text-[17px] leading-[100%] mb-10'>Blogs</h3>
 					<ul className=''>
-						<li className=''>
-							<Link href='#'>All Posts</Link>
+						<li className='font-[400] text-[15px] leading-[100%] mb-5 hover:text-greenSuper'>
+							<Link href='/posts'>All Posts</Link>
 						</li>
-						<li className=''>
-							<Link href='#'>React.js</Link>
+						<li className='font-[400] text-[15px] leading-[100%] mb-5 hover:text-greenSuper'>
+							<Link href='/posts/frontend'>React.js</Link>
 						</li>
-						<li className=''>
-							<Link href='#'>Next.js</Link>
+						<li className='font-[400] text-[15px] leading-[100%] mb-5 hover:text-greenSuper'>
+							<Link href='/posts/frontend'>Next.js</Link>
 						</li>
-						<li className=''>
-							<Link href='#'>Express.js</Link>
+						<li className='font-[400] text-[15px] leading-[100%] mb-5 hover:text-greenSuper'>
+							<Link href='/posts/backend'>Express.js</Link>
 						</li>
 					</ul>
 				</div>
 				<div className=''>
-					<h3 className=''>Subscribe For Newsletter</h3>
+					<h3 className='font-[600] text-[17px] leading-[100%] mb-7'>
+						Subscribe For Newsletter
+					</h3>
 					<input
-						className=''
+						className='w-[315px] h-[45px] bg-greenNav p-3 focus:outline-none rounded'
 						type='text'
 					/>
-					<button className=''>Subscribe</button>
-
+					<button className='w-[115px] h-[45px] bg-[#00AAA1] p-3 focus:outline-none rounded text-white hover:bg-green-600 mb-5'>
+						Subscribe
+					</button>
+					<p className='font-[600] text-[15px] leading-[100%] mb-5'>Links</p>
+					<div className='flex gap-2'>
+						{/* <Link></Link>
+						<Link></Link> */}
+					</div>
 					{/*  Add social links Here */}
 				</div>
 			</div>
-			<div className='flex mx-auto justify-center items-center'>
-				<p>&copy;Copyrights: All Rights Reserved.</p>
-				<span>
-					Made with love by{' '}
-					<span>
-						<Link href='https://www.upwork.com/freelancers/junaidniazi'>
+			<div className='w-full flex justify-evenly mx-auto items-center gap-9 bg-greenFooter'>
+				<p>
+					Made with ❤️ by{'  '}
+					<span className='text-greenSuper'>
+						<Link
+							href='https://www.upwork.com/freelancers/junaidniazi'
+							target='_blank'>
 							Junaid Hassan Khan
 						</Link>
 					</span>
-				</span>
+				</p>
+				<p>&copy;All Rights Reserved.</p>
 			</div>
 		</footer>
 	);

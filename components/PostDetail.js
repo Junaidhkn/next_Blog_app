@@ -4,7 +4,7 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { materialDark } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 
 
-function PostContent ( props ) {
+function PostDetail ( props ) {
    const { post } = props;
 
    const imagePath = `/images/posts/${post.slug}/${post.image}`;
@@ -51,4 +51,4 @@ function PostContent ( props ) {
    );
 }
 
-export default PostContent;
+export default PostDetail;

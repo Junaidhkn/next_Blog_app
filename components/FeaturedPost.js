@@ -1,5 +1,3 @@
-import Image from "next/image.js";
-import Link from "next/link.js";
 import PostsGrid from "./PostsGrid.js";
 import PopularPostsGrid from "./PopularPostsGrid.js";
 

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const PostItem = () => {
+const PostItem = ( props ) => {
    const { tag, title, image, excerpt, date, slug } = props.post;
 
    const formattedDate = new Date( date ).toLocaleDateString( 'en-US', {

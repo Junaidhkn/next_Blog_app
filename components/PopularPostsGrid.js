@@ -1,7 +1,7 @@
 import React from 'react'
 import PopularPostItem from './PopularPostItem.js'
 
-const PopularPostsGrid = () => {
+const PopularPostsGrid = ( props ) => {
    const { posts } = props
    return (
       <ul>

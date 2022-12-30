@@ -4,7 +4,7 @@ import Link from "next/link.js";
 const featuredPost = () => {
 	return (
 		<main className="flex ">
-			<div className='container flex flex-col bg-greenGray w-full mt-12 mx-20'>
+			<div className='container flex flex-col bg-greenGray w-full mt-12 mb-14 mx-20'>
 				<h2 className="text-3xl font-bold mb-10"><span className='bg-greenSuper text-neutral-50 text-2xl p-1'>Featured</span> Posts</h2>
 				<Link href='/' className="hover:outline outline-2 outline-emerald-100  hover:drop-shadow-md">
 					<div className="flex justify-evenly gap-8 mb-10 pb-10">

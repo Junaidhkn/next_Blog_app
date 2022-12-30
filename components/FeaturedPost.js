@@ -13,7 +13,7 @@ const featuredPost = ( props ) => {
 								<div className=" w-[430]">
 									<span className="p-1 bg-greenFooter text-xs">React.js</span>
 									{/* <h3 className="mt-1  text-3xl font-[600] leading-[37.5px] text-[27px]">{title}</h3> */}
-									<div className="m-2 flex space-x-7 text-sm font-thin">
+									<div className="m-2 mt-3 mb-8 flex space-x-7 text-sm font-thin">
 										{/* Add Icons */}
 										<p>Junaid Hassan Khan</p>
 										<p>27/12/2022</p>

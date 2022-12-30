@@ -43,3 +43,11 @@ export function getFeaturedPosts () {
 
    return featuredPosts;
 }
+
+export function getPopularPosts () {
+   const allPosts = getAllPosts();
+
+   const popularPosts = allPosts.filter( post => post.isPopular );
+
+   return popularPosts;
+}

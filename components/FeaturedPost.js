@@ -1,7 +1,7 @@
 import Image from "next/image.js";
 import Link from "next/link.js";
 
-const featuredPost = () => {
+const featuredPost = ( props ) => {
 	return (
 		<main className="flex ">
 			<div className='container flex flex-col bg-greenGray w-full mt-12 mb-14 mx-20'>
@@ -12,7 +12,7 @@ const featuredPost = () => {
 							<div className='container mt-8'>
 								<div className=" w-[430]">
 									<span className="p-1 bg-greenFooter text-xs">React.js</span>
-									<h3 className="mt-1  text-3xl font-[600] leading-[37.5px] text-[27px]">I have create a React Booking App.Here's what I have Learnt from it.Check it out'</h3>
+									{/* <h3 className="mt-1  text-3xl font-[600] leading-[37.5px] text-[27px]">{title}</h3> */}
 									<div className="m-2 flex space-x-7 text-sm font-thin">
 										{/* Add Icons */}
 										<p>Junaid Hassan Khan</p>
@@ -24,8 +24,7 @@ const featuredPost = () => {
 						</div>
 						<div className="relative w-[350px] h-[250px] mt-20">
 							<div className="absolute w-[150px] h-[171px] -left-[20px] -top-[20px] z-0 opacity-80 bg-greenNav"></div>
-							<img className="absolute w-full h-full z-10" src="/images/blog.jpg" />
-							{/* <Image></Image> */}
+							<Image src='/images/blog.jpg' className="absolute w-full h-full z-10" width={300} height={230} />
 						</div>
 					</div>
 

@@ -23,7 +23,7 @@ const PostItem = ( props ) => {
                         <div className="m-2 mt-3 mb-8 flex space-x-7 text-sm font-thin">
                            {/* Add Icons */}
                            <p>Junaid Hassan Khan</p>
-                           <p>{date}</p>
+                           <p>{formattedDate}</p>
                         </div>
                         <p className="leading-[22.5px] text-[15px] w-[430]">{excerpt}</p>
                      </div>

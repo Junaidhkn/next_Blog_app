@@ -2,11 +2,11 @@ import React from 'react'
 import PopularPostItem from './PopularPostItem.js'
 
 const PopularPostsGrid = () => {
-   const { popularPosts } = props
+   const { posts } = props
    return (
       <ul>
-         {popularPosts.map( ( post ) => {
-            <PopularPostItem key={post.slug} post={popularPosts} />
+         {posts.map( ( post ) => {
+            <PopularPostItem key={post.slug} post={post} />
          } )}
       </ul>
 

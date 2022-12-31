@@ -12,7 +12,7 @@ const PopularPostItem = ( props ) => {
 
    const linkPath = `/posts/${slug}`;
    return (
-      <div>
+      <div className='hover:outline outline-2 outline-emerald-100  hover:drop-shadow-md'>
          <Link href={linkPath} className="hover:outline outline-2 outline-emerald-100  hover:drop-shadow-md">
             <div className="p-5 ">
                <div className='container mt-8'>

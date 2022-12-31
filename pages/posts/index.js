@@ -1,4 +1,3 @@
-import Image from 'next/image.js'
 import React from 'react'
 import { getAllPosts } from '../../helper/utils.js'
 import PostItem from '../../components/PostItem.js';

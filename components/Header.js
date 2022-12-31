@@ -3,11 +3,14 @@ import Image from 'next/image.js';
 const Header = () => {
 	return (
 		<div className='flex px-28 py-10 justify-evenly w-full h-[500px] bg-header'>
-			<div>
+			<div className='w-auto h-auto'>
 				<Image
+					alt='Junaid-Full stack Developer'
 					src='/images/site/junaid.jpg'
 					width={326}
-					height={395}></Image>
+					height={395}
+					priority={true}
+				></Image>
 			</div>
 			<div className='flex flex-col w-2/4'>
 				<h2 className='font-[600] text-2xl leading-[140%] mb-4'>

@@ -3,13 +3,13 @@ import Header from '../components/Header.js';
 import { getFeaturedPosts, getPopularPosts } from '../helper/utils.js';
 
 const HomePage = ( props ) => {
-	const { posts, popularPosts } = props
-	console.log( posts )
+	const { featuredPosts, popularPosts } = props.posts
+	console.log( featuredPosts )
 	console.log( popularPosts );
 	return (
 		<>
 			<Header />
-			<FeaturedPost posts={posts} popularPosts={popularPosts} />
+			<FeaturedPost posts={featuredPosts} popularPosts={popularPosts} />
 		</>
 	);
 };
@@ -24,8 +24,10 @@ export function getStaticProps () {
 
 	return {
 		props: {
-			posts: featuredPosts,
-			popularPosts: popularPosts
+			posts: {
+				featuredPosts,
+				popularPosts
+			}
 		},
 	};
 }

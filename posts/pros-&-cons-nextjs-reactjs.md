@@ -1,3 +1,17 @@
+---
+title: 'Why is Next.js so Popular to be known as React Framework for Production'
+date: '2022-12-16'
+image: why-nextjs-over-reactjs.png
+excerpt:
+  'NextJS is a the React framework for production - it makes building fullstack
+  React apps and sites a breeze and ships with built-in SSR.Find out how ???'
+isFeatured: true
+isPopular: false
+tag: 'Next.js'
+frontend: true
+backend: false
+---
+
 Next.js is a popular framework for building server-rendered React applications.
 It offers a number of benefits and features that make it an attractive choice
 for developers, but it also has some drawbacks that you should consider before

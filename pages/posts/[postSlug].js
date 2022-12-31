@@ -2,9 +2,10 @@ import Head from 'next/head';
 import { Fragment } from 'react';
 
 import PostDetail from '../../components/PostDetail';
-import { getPostData, getPostsFiles } from '../../lib/posts-util';
+import { getPostData, getPostsFiles } from '../../helper/utils.js';
 
 function PostDetailPage ( props ) {
+
    return (
       <Fragment>
          <Head>
@@ -18,15 +19,15 @@ function PostDetailPage ( props ) {
 
 export function getStaticProps ( context ) {
    const { params } = context;
-   const { slug } = params;
+   const { postSlug } = params;
 
-   const postData = getPostData( slug );
+   const postData = getPostData( postSlug );
 
    return {
       props: {
          post: postData,
       },
-      revalidate: 600,
+      // revalidate: 600,
    };
 }
 
@@ -34,9 +35,10 @@ export function getStaticPaths () {
    const postFilenames = getPostsFiles();
 
    const slugs = postFilenames.map( ( fileName ) => fileName.replace( /\.md$/, '' ) );
-
+   const params = slugs.map( ( slug ) => ( { params: { postSlug: slug } } ) )
+   console.log( params );
    return {
-      paths: slugs.map( ( slug ) => ( { params: { slug: slug } } ) ),
+      paths: params,
       fallback: false,
    };
 }

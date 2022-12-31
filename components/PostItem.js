@@ -1,3 +1,5 @@
+import Image from 'next/image.js';
+import Link from 'next/link.js';
 import React from 'react'
 
 const PostItem = ( props ) => {

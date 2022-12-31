@@ -3,6 +3,8 @@ import Link from 'next/link.js';
 import React from 'react'
 
 const PostItem = ( props ) => {
+   console.log( 'Third' );
+   console.log( props )
    const { tag, title, image, excerpt, date, slug } = props.post;
 
    const formattedDate = new Date( date ).toLocaleDateString( 'en-US', {

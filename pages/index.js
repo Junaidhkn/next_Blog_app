@@ -4,8 +4,8 @@ import { getFeaturedPosts, getPopularPosts } from '../helper/utils.js';
 
 const HomePage = ( props ) => {
 	const { featuredPosts, popularPosts } = props.posts
-	console.log( featuredPosts )
-	console.log( popularPosts );
+	// console.log( posts )
+	// console.log( popularPosts );
 	return (
 		<>
 			<Header />
@@ -24,7 +24,8 @@ export function getStaticProps () {
 
 	return {
 		props: {
-			posts: {
+			posts:
+			{
 				featuredPosts,
 				popularPosts
 			}

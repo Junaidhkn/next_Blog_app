@@ -5,8 +5,8 @@ image: JWT-auth-system-in-mern.png
 excerpt:
   'JSON Web Tokens (JWT) are a popular way to implement authentication in a MERN
 (MongoDB, Express.js, React.js, Node.js) stack application.Find out how ???'
-isFeatured: true
-isPopular: false
+isFeatured: false
+isPopular: true
 tag: 'Backend & Frontend'
 frontend: true
 backend: true

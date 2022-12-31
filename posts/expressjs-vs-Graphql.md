@@ -6,7 +6,7 @@ excerpt:
   'Express.js and GraphQL are both popular tools for building APIs (Application
 Programming Interfaces) that allow clients to access and manipulate data stored
 on a server. While both can be used to build APIs ...'
-isFeatured: true
+isFeatured: false
 isPopular: true
 tag: 'GraphQL & Express.js'
 frontend: false

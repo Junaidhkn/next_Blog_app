@@ -21,7 +21,7 @@ const PopularPostItem = ( props ) => {
                      <div className="m-2 flex space-x-7 text-xs font-thin">
                         {/* Add Icons */}
                         <p>Junaid Khan</p>
-                        <p>{date}</p>
+                        <p>{formattedDate}</p>
                      </div>
                      <p className="leading-[22.5px] text-[15px] w-[430]">{excerpt}</p>
                   </div>

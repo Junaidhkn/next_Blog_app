@@ -8,6 +8,8 @@ excerpt:
 isFeatured: true
 isPopular: false
 tag: 'Next.js'
+frontend: true
+backend: false
 ---
 
 ![Benifits of using Next.js over react](why-nextjs-over-reactjs.png)

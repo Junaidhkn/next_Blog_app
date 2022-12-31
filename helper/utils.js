@@ -51,3 +51,19 @@ export function getPopularPosts () {
 
    return popularPosts;
 }
+
+export function getFrontendPosts () {
+   const allPosts = getAllPosts();
+
+   const frontendPosts = allPosts.filter( post => post.frontend );
+
+   return frontendPosts;
+}
+
+export function getBackendPosts () {
+   const allPosts = getAllPosts();
+
+   const backendPosts = allPosts.filter( post => post.backend );
+
+   return backendPosts;
+}

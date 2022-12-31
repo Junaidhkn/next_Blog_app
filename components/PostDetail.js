@@ -45,10 +45,10 @@ function PostDetail ( props ) {
    };
 
    return (
-      <main className='mx-20 p-4 my-5 font-[400] leading-[22.5px] text-[15px] font-[#666666]'>
+      <main className='mx-20 p-4 my-5'>
          <h1 className="mt-1 mb-2 text-5xl font-[600]text-[27px]">{post.title}</h1>
          <span className="p-1 bg-greenFooter text-xs">{post.tag}</span>
-         <article>
+         <article className=' font-[400] leading-[22.5px] text-[18px] font-[#666666]'>
             <ReactMarkdown components={customRenderers}>{post.content}</ReactMarkdown>
          </article>
       </main>

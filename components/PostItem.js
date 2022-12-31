@@ -14,7 +14,7 @@ const PostItem = ( props ) => {
    const imagePath = `/images/posts/${slug}/${image}`;
    const linkPath = `/posts/${slug}`;
    return (
-      <div>
+      <div className="hover:outline outline-2 outline-emerald-100  hover:drop-shadow-md w-full">
          <Link href={linkPath} className="hover:outline outline-2 outline-emerald-100  hover:drop-shadow-md">
             <div className="flex justify-evenly gap-8 mb-10 pb-10">
                <div className='flex flex-col w-96 h-64'>

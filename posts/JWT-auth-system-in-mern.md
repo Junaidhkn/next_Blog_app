@@ -1,16 +1,18 @@
 ---
-title: 'Why is Next.js so Popular to be known as React Framework for Production'
+title: 'Json Web Tokens - Modern Authentication System'
 date: '2022-12-16'
-image: why-nextjs-over-reactjs.png
+image: JWT-auth-system-in-mern.png
 excerpt:
-  'NextJS is a the React framework for production - it makes building fullstack
-  React apps and sites a breeze and ships with built-in SSR.Find out how ???'
+  'JSON Web Tokens (JWT) are a popular way to implement authentication in a MERN
+(MongoDB, Express.js, React.js, Node.js) stack application.Find out how ???'
 isFeatured: true
 isPopular: false
-tag: 'Next.js'
+tag: 'Backend & Frontend'
 frontend: true
-backend: false
+backend: true
 ---
+
+![Json Web Tokens - Modern Authentication System](JWT-auth-system-in-mern.png)
 
 JSON Web Tokens (JWT) are a popular way to implement authentication in a MERN
 (MongoDB, Express.js, React.js, Node.js) stack application. In this blog post,

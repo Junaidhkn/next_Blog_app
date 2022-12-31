@@ -4,7 +4,7 @@ date: '2022-12-16'
 image: why-nextjs-over-reactjs.png
 excerpt:
   'NextJS is a the React framework for production - it makes building fullstack
-  React apps and sites a breeze and ships with built-in SSR.Find out how ???'
+  React apps and sites with built-in SSR.Find out how ???'
 isFeatured: true
 isPopular: false
 tag: 'Next.js'
@@ -18,11 +18,12 @@ NextJS is a **popular framework of ReactJS** for building server-rendered
 React.js applications. It offers a variety of features that make it easy to
 build and deploy scalable, performant applications.
 
-## key features of Next.js:
+# Key features of Next.js:
 
-Server-side rendering One of the main benefits of Next.js is its ability to
-server-side render React.js applications. Server-side rendering (SSR) is the
-process of rendering a web application on the server rather than in the browser.
+> Server-side rendering One of the main benefits of Next.js is its ability to
+> server-side render React.js applications. Server-side rendering (SSR) is the
+> process of rendering a web application on the server rather than in the
+> browser.
 
 This has several benefits, including:
 

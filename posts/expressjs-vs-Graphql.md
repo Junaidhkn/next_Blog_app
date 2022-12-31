@@ -1,16 +1,19 @@
 ---
-title: 'Why is Next.js so Popular to be known as React Framework for Production'
+title: 'Building Application Programming Interfaces using Express.js and GraphQL'
 date: '2022-12-16'
-image: why-nextjs-over-reactjs.png
+image: expressjs-vs-Graphql.jpg
 excerpt:
-  'NextJS is a the React framework for production - it makes building fullstack
-  React apps and sites a breeze and ships with built-in SSR.Find out how ???'
+  'Express.js and GraphQL are both popular tools for building APIs (Application
+Programming Interfaces) that allow clients to access and manipulate data stored
+on a server. While both can be used to build APIs ...'
 isFeatured: true
-isPopular: false
-tag: 'Next.js'
-frontend: true
-backend: false
+isPopular: true
+tag: 'GraphQL & Express.js'
+frontend: false
+backend: true
 ---
+
+![Express.js and GraphQL](expressjs-vs-Graphql.jpg)
 
 Express.js and GraphQL are both popular tools for building APIs (Application
 Programming Interfaces) that allow clients to access and manipulate data stored

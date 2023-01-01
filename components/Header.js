@@ -5,15 +5,15 @@ import { SiUpwork } from 'react-icons/si';
 
 const Header = () => {
 	return (
-		<div className='flex px-28 py-10 justify-evenly w-full h-[500px] bg-header'>
-			<div className='w-auto h-auto'>
+		<div className='md:flex md:px-10 md:py-5  lg:flex xl:flex xl:px-28 xl:py-10 md:justify-evenly lg:w-full h-[500px] bg-header'>
+			<div className='sm:w-[200px] sm:h-[250px] rounded-full w-auto h-auto'>
 				<Image
+					className=' m-sm:rounded-full '
 					alt='Junaid-Full stack Developer'
 					src='/images/site/junaid.jpg'
 					width={326}
 					height={395}
-					priority={true}
-				></Image>
+					priority={true}></Image>
 			</div>
 			<div className='flex flex-col w-2/4'>
 				<h2 className='font-[600] text-2xl leading-[140%] mb-4'>
@@ -38,13 +38,15 @@ const Header = () => {
 					for visiting my site, I hope you find my content useful and
 					informative.
 				</p>
+
 				<p className='font-[600] italic text-[18px] leading-[150%] mb-2'>
 					"Full stack developer, full stack problem solver"
 				</p>
 				<h4 className='font-[700] text-[18px]'>Follow On Social Links:</h4>
 				<div className='mt-2 flex justify-start gap-10'>
 					<div className='text-5xl text-blue-600'>
-						<Link href='https://twitter.com/junaidHKNiazi'
+						<Link
+							href='https://twitter.com/junaidHKNiazi'
 							target='_blank'>
 							<FaTwitter />
 						</Link>

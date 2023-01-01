@@ -47,6 +47,7 @@ const PostItem = ( props ) => {
 						<div className='absolute w-[150px] h-[171px] -left-[20px] -top-[20px] z-0 opacity-80 bg-greenNav'></div>
 						<Image
 							src={imagePath}
+							alt={title}
 							className='absolute w-full h-full z-10'
 							width={300}
 							height={230}

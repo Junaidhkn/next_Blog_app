@@ -19,7 +19,7 @@ const PostItem = ( props ) => {
 			<Link
 				href={linkPath}
 				className='hover:outline outline-2 outline-emerald-100  hover:drop-shadow-md'>
-				<div className='flex sm:flex-col-reverse md:flex-row lg:flex-row justify-evenly gap-8 mb-10 pb-10'>
+				<div className='flex xs:flex-col-reverse sm:flex-col-reverse md:flex-row lg:flex-row justify-evenly gap-8 mb-10 pb-10'>
 					<div className='flex flex-col w-96 h-64'>
 						<div className='container mt-8'>
 							<div>
@@ -43,7 +43,7 @@ const PostItem = ( props ) => {
 							</div>
 						</div>
 					</div>
-					<div className='hidden sm:block md:block lg:hidden xl:block relative w-[350px] h-[250px] mt-20'>
+					<div className='xs:block sm:block md:block lg:hidden xl:block relative w-[350px] h-[250px] mt-20'>
 						<div className='absolute w-[150px] h-[171px] -left-[20px] -top-[20px] z-0 opacity-80 bg-greenNav'></div>
 						<Image
 							src={imagePath}

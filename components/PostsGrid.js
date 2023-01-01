@@ -8,7 +8,7 @@ const PostsGrid = ( props ) => {
    return ( <main className='mt-10 w-full flex flex-col justify-center items-center mb-20'>
       <ul>
          {posts.map( ( post ) => (
-            <li className='w-[850px]'>
+            <li className='lg:w-[550px] xl:w-[750px]'>
                <PostItem key={post.slug} post={post} />
             </li>
          ) )}

@@ -2,7 +2,7 @@ import Link from 'next/link.js';
 import { useState } from 'react';
 
 const Navbar = () => {
-	const [open, setOpen] = useState(false);
+	const [open, setOpen] = useState( false );
 
 	const btnClass = open
 		? `block hamburger lg:hidden focus:outline-none open`
@@ -44,7 +44,7 @@ const Navbar = () => {
 			<div className=''>
 				<button
 					onClick={() => {
-						setOpen(!open);
+						setOpen( !open );
 					}}
 					className={btnClass}>
 					<span className='hamburger-top'></span>
@@ -57,7 +57,7 @@ const Navbar = () => {
 				<div
 					className={menuClass}
 					onClick={() => {
-						setOpen(false);
+						setOpen( false );
 					}}>
 					<Link
 						className='block py-2 px-4 text-greenSuper hover:border border-solid border-greenSuper hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'

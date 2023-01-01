@@ -11,8 +11,8 @@ const Navbar = () => {
 		? `absolute hidden z-40 flex-col items-center justify-center py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md text-center`
 		: `absolute flex-col z-40 items-center justify-center py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md text-center`;
 	return (
-		<nav className='relative h-16 bg-greenNav w-full flex items-center justify-around '>
-			<div className='flex basis-1/3 items-center justify-center'>
+		<nav className='relative h-16 bg-greenNav w-full flex items-center justify-between lg:items-center lg:justify-around '>
+			<div className='flex basis-3/4 items-center justify-center'>
 				<Link href='/'>
 					<span className='bg-greenSuper text-neutral-50 text-2xl p-2 rounded-2xl'>
 						Junaid@
@@ -41,7 +41,7 @@ const Navbar = () => {
 					Backend
 				</Link>
 			</div>
-			<div>
+			<div className=''>
 				<button
 					onClick={() => {
 						setOpen(!open);

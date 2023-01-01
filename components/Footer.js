@@ -36,7 +36,7 @@ const footer = () => {
 						</li>
 					</ul>
 				</div>
-				<div className=''>
+				<div className='hidden lg:block'>
 					<h3 className='font-[600] text-[17px] leading-[100%] mb-7'>
 						Subscribe For Newsletter
 					</h3>
@@ -78,7 +78,7 @@ const footer = () => {
 						</Link>
 					</span>
 				</p>
-				<p className='font-bold text-gray-600'>&copy; All Rights Reserved. Copyrights 2022 - 23</p>
+				<p className='hidden md:block font-bold text-gray-600'>&copy; All Rights Reserved. Copyrights 2022 - 23</p>
 			</div>
 		</footer>
 	);

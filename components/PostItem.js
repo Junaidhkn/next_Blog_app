@@ -3,14 +3,14 @@ import Link from 'next/link.js';
 import { BsPerson } from 'react-icons/bs';
 import { MdOutlineDateRange } from 'react-icons/md';
 
-const PostItem = (props) => {
+const PostItem = ( props ) => {
 	const { tag, title, image, excerpt, date, slug } = props.post;
 
-	const formattedDate = new Date(date).toLocaleDateString('en-US', {
+	const formattedDate = new Date( date ).toLocaleDateString( 'en-US', {
 		day: 'numeric',
 		month: 'long',
 		year: 'numeric',
-	});
+	} );
 
 	const imagePath = `/images/posts/${slug}/${image}`;
 	const linkPath = `/posts/${slug}`;
@@ -28,11 +28,11 @@ const PostItem = (props) => {
 									{title}
 								</h3>
 								<div className='m-2 mt-3 mb-8 flex space-x-7 text-sm font-thin'>
-									<p className='flex gap-3'>
+									<p className='flex items-center gap-3'>
 										<BsPerson />
 										Junaid Hassan Khan
 									</p>
-									<p className='flex gap-3'>
+									<p className='flex items-center gap-3'>
 										<MdOutlineDateRange />
 										{formattedDate}
 									</p>

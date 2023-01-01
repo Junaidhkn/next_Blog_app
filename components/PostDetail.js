@@ -2,10 +2,18 @@ import ReactMarkdown from 'react-markdown';
 import Image from 'next/image';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { materialDark } from 'react-syntax-highlighter/dist/cjs/styles/prism';
+import { BsPerson } from 'react-icons/bs';
+import { MdOutlineDateRange } from 'react-icons/md';
 
 
 function PostDetail ( props ) {
    const { post } = props;
+   const date = post.date
+   const formattedDate = new Date( date ).toLocaleDateString( 'en-US', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric',
+   } );
 
    const imagePath = `/images/posts/${post.slug}/${post.image}`;
 
@@ -48,6 +56,16 @@ function PostDetail ( props ) {
       <main className='mx-20 p-4 my-5'>
          <h1 className="mt-1 mb-2 text-5xl font-[600]text-[27px]">{post.title}</h1>
          <span className="p-1 bg-greenFooter text-xs">{post.tag}</span>
+         <div className='m-2 mt-3 mb-8 flex items-center space-x-7 text-sm font-thin'>
+            <p className='flex items-center gap-3'>
+               <BsPerson />
+               Junaid Hassan Khan
+            </p>
+            <p className='flex items-center gap-3'>
+               <MdOutlineDateRange />
+               {formattedDate}
+            </p>
+         </div>
          <article className=' font-[400] leading-[22.5px] text-[18px] font-[#666666]'>
             <ReactMarkdown components={customRenderers}>{post.content}</ReactMarkdown>
          </article>

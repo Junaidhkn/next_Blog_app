@@ -21,12 +21,12 @@ const PopularPostItem = ( props ) => {
                   <div className=" w-[430]">
                      <span className="p-1 bg-greenFooter text-xs">{tag}</span>
                      <h3 className="mt-1 font-[600] leading-[150%] text-[17px]">{title}</h3>
-                     <div className="m-2 flex space-x-7 text-xs font-thin">
-                        <p className='flex gap-3'>
+                     <div className="m-2 flex items-center space-x-7 text-xs font-thin">
+                        <p className='flex gap-3 items-center'>
                            <BsPerson />
                            Junaid Hassan Khan
                         </p>
-                        <p className='flex gap-3'>
+                        <p className='flex gap-3 items-center'>
                            <MdOutlineDateRange />
                            {formattedDate}
                         </p>

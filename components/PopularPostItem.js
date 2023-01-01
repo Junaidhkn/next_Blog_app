@@ -1,5 +1,7 @@
 import Link from 'next/link.js';
 import React from 'react'
+import { BsPerson } from 'react-icons/bs';
+import { MdOutlineDateRange } from 'react-icons/md';
 
 const PopularPostItem = ( props ) => {
    const { tag, title, excerpt, date, slug } = props.post;
@@ -20,9 +22,14 @@ const PopularPostItem = ( props ) => {
                      <span className="p-1 bg-greenFooter text-xs">{tag}</span>
                      <h3 className="mt-1 font-[600] leading-[150%] text-[17px]">{title}</h3>
                      <div className="m-2 flex space-x-7 text-xs font-thin">
-                        {/* Add Icons */}
-                        <p>Junaid Khan</p>
-                        <p>{formattedDate}</p>
+                        <p className='flex gap-3'>
+                           <BsPerson />
+                           Junaid Hassan Khan
+                        </p>
+                        <p className='flex gap-3'>
+                           <MdOutlineDateRange />
+                           {formattedDate}
+                        </p>
                      </div>
                      <p className="leading-[22.5px] text-[15px] w-[430]">{excerpt}</p>
                   </div>

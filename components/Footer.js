@@ -1,4 +1,6 @@
 import Link from 'next/link.js';
+import { FaTwitter } from 'react-icons/fa'
+import { SiUpwork } from 'react-icons/si'
 
 const footer = () => {
 	return (
@@ -45,12 +47,23 @@ const footer = () => {
 					<button className='w-[115px] h-[45px] bg-[#00AAA1] p-3 focus:outline-none rounded text-white hover:bg-green-600 mb-5'>
 						Subscribe
 					</button>
-					<p className='font-[600] text-[15px] leading-[100%] mb-5'>Links</p>
-					<div className='flex gap-2'>
-						{/* <Link></Link>
-						<Link></Link> */}
+
+					<div className='mt-7 flex justify-center gap-10'>
+						<div className='text-5xl text-blue-600'>
+							<Link href='https://twitter.com/junaidHKNiazi'
+								target='_blank'>
+								<FaTwitter />
+							</Link>
+						</div>
+						<div className='text-5xl text-green-600'>
+							<Link
+								href='https://www.upwork.com/freelancers/junaidniazi'
+								target='_blank'>
+								<SiUpwork />
+							</Link>
+						</div>
 					</div>
-					{/*  Add social links Here */}
+
 				</div>
 			</div>
 			<div className='bg-greenGray w-full h-[1px]'></div>

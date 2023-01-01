@@ -48,7 +48,7 @@ const footer = () => {
 						Subscribe
 					</button>
 
-					<div className='mt-7 flex justify-center gap-10'>
+					<div className='mt-7 flex justify-start gap-12'>
 						<div className='text-5xl text-blue-600'>
 							<Link href='https://twitter.com/junaidHKNiazi'
 								target='_blank'>

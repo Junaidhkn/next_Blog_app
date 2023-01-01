@@ -3,8 +3,6 @@ import PopularPostsGrid from "./PopularPostsGrid.js";
 
 const featuredPost = ( props ) => {
 	const { posts, popularPosts } = props
-	console.log( 'first' )
-	console.log( posts );
 	return (
 		<main className="flex justify-around p-20 gap-5">
 			<div className='container flex flex-col bg-greenGray mt-12 mb-14'>

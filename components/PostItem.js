@@ -4,8 +4,6 @@ import { BsPerson } from 'react-icons/bs';
 import { MdOutlineDateRange } from 'react-icons/md';
 
 const PostItem = (props) => {
-	console.log('Third');
-	console.log(props);
 	const { tag, title, image, excerpt, date, slug } = props.post;
 
 	const formattedDate = new Date(date).toLocaleDateString('en-US', {

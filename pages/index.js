@@ -4,8 +4,6 @@ import { getFeaturedPosts, getPopularPosts } from '../helper/utils.js';
 
 const HomePage = ( props ) => {
 	const { featuredPosts, popularPosts } = props.posts
-	// console.log( posts )
-	// console.log( popularPosts );
 	return (
 		<>
 			<Header />

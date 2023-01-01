@@ -1,4 +1,7 @@
 import Image from 'next/image.js';
+import Link from 'next/link.js';
+import { FaTwitter } from 'react-icons/fa';
+import { SiUpwork } from 'react-icons/si';
 
 const Header = () => {
 	return (
@@ -38,10 +41,21 @@ const Header = () => {
 				<p className='font-[600] italic text-[18px] leading-[150%] mb-2'>
 					"Full stack developer, full stack problem solver"
 				</p>
-				<h4>Follow On Social Links</h4>
-				<div className='flex gap-2'>
-					Links
-					{/* Add icon wrapped with the social links to open in a new tab */}
+				<h4 className='font-[700] text-[18px]'>Follow On Social Links:</h4>
+				<div className='mt-2 flex justify-start gap-10'>
+					<div className='text-5xl text-blue-600'>
+						<Link href='https://twitter.com/junaidHKNiazi'
+							target='_blank'>
+							<FaTwitter />
+						</Link>
+					</div>
+					<div className='text-5xl text-green-600'>
+						<Link
+							href='https://www.upwork.com/freelancers/junaidniazi'
+							target='_blank'>
+							<SiUpwork />
+						</Link>
+					</div>
 				</div>
 			</div>
 		</div>

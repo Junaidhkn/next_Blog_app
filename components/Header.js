@@ -7,9 +7,9 @@ const Header = () => {
 	return (
 		<div className='sm:py-5 md:flex md:px-10 md:py-5  lg:flex xl:flex xl:px-28 xl:py-10 md:justify-evenly lg:w-full h-[500px] bg-header'>
 			<div className='flex flex-col items-center gap-4'>
-				<div className='sm:w-[250px] sm:h-auto md:w-[250px]  lg:w-auto lg:h-auto'>
+				<div className='xs:mt-6 xs:w-[225px] sm:w-[250px] sm:h-auto md:w-[250px]  lg:w-auto lg:h-auto'>
 					<Image
-						className='sm:rounded-full '
+						className='xs:rounded-full sm:rounded-full '
 						alt='Junaid-Full stack Developer'
 						src='/images/site/junaid.jpg'
 						width={326}
@@ -37,7 +37,7 @@ const Header = () => {
 					</div>
 				</div>
 			</div>
-			<div className='sm:hidden md:flex flex-col w-2/4'>
+			<div className='xs:hidden sm:hidden md:flex flex-col w-2/4'>
 				<h2 className='font-[600] text-2xl leading-[140%] mb-4'>
 					Hi there! I'm Junaid Hassan Khan Niazi
 				</h2>
